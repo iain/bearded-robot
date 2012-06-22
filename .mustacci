@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
+start = Time.now
 70.times do
   print '.'
   sleep 0.5
 end
+puts
+puts "Our fake tests ran in #{Time.now - start} seconds"
